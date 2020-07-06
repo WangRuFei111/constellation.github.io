@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgyellow">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/starfrag_vp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+    <LinearLayout
+        android:id="@+id/starfrag_layout"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_alignBottom="@+id/starfrag_vp"/>
+    <GridView
+        android:id="@+id/starfrag_gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/starfrag_vp"
+        android:layout_marginTop="100dp"
+        android:numColumns="4"/>
+
+</RelativeLayout>

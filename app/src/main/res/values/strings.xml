@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">星梦缘</string>
+    <string name="lable_star">星座</string>
+    <string name="lable_parnter">配对</string>
+    <string name="lable_luck">运势</string>
+    <string name="lable_me">我的</string>
+    <string name="man">男生 ：</string>
+    <string name="woman">女生 ：</string>
+    <string name="parnter_info">分别选您的星座和对方的星座点击配对分析即可。</string>
+    <string name="parnter_btn_prize">每日抽奖</string>
+    <string name="parnter_btn_analysls">开始配对分析</string>
+    <string name="title_activity_parnter_analysls">ParnterAnalyslsActivity</string>
+    <string name="about_app">关于应用</string>
+    <string name="function">功能介绍</string>
+    <string name="update">更新日志</string>
+    <string name="feedback">反馈问题</string>
+</resources>
